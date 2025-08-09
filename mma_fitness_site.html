@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MMA & Fitness Coaching – Army Veteran</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: url('https://images.unsplash.com/photo-1574739782748-0cb037d84c3c') center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        header a {
+            background: red;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .service {
+            background: #f4f4f4;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .testimonial {
+            background: #eee;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            font-style: italic;
+        }
+        form input, form textarea, form button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        form button {
+            background: red;
+            color: white;
+            border: none;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        footer {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Train Like a Warrior</h1>
+        <p>Army Veteran | MMA Fighter | Fitness Coach</p>
+        <a href="#contact">Book Your Session</a>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>As a U.S. Army Veteran and experienced MMA fighter, I bring discipline, grit, and proven training methods to help you achieve peak physical and mental performance. Whether you're a beginner or a seasoned athlete, I’ll tailor your training to your goals.</p>
+    </section>
+
+    <section>
+        <h2>Services</h2>
+        <div class="services">
+            <div class="service">
+                <h3>MMA & Self-Defense</h3>
+                <p>Learn striking, grappling, and defensive tactics from real combat and cage experience.</p>
+            </div>
+            <div class="service">
+                <h3>Strength & Conditioning</h3>
+                <p>Build functional strength, endurance, and explosive power for combat sports and fitness.</p>
+            </div>
+            <div class="service">
+                <h3>Online Coaching</h3>
+                <p>Custom workout plans and video breakdowns you can follow anywhere in the world.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Testimonials</h2>
+        <div class="testimonial">“Coach brought the discipline of the Army into our sessions. I’ve never felt stronger.” – Alex</div>
+        <div class="testimonial">“I went from zero MMA experience to competing in just 8 months.” – Jordan</div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 MMA & Fitness Coaching by Army Veteran | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
